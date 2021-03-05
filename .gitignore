@@ -1,0 +1,8 @@
+# Documentation
+docs/
+
+# PHPUnit
+phpunit
+
+# Do not upload this file, it has sensitive infos.. 
+sys/config.php 
