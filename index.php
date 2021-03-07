@@ -1,8 +1,11 @@
 <?php
 
+//Loads classes from several paths defined in the autoload file.  
 require_once './sys/autoload.php';
 
-error_reporting(0);
+//E_ALL for debugging, 0 for production.  
+error_reporting(E_ALL);
+//error_reporting(0);
 
 Session::begin();
 

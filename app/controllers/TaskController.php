@@ -11,7 +11,7 @@ class TaskController extends AuthController {
 	 */
 	public function index() {
 		// Setting the title
-		$this->set('title', 'Tasks');
+		$this->set('title', 'Task / Index');
 
 		// Taking data from the database
 		$tasks = TaskModel::getAllFromInnerJoinWithUsers();
@@ -32,7 +32,7 @@ class TaskController extends AuthController {
 	 */
 	public function create() {
 		// Setting the title
-		$this->set('title', 'Add task');
+		$this->set('title', 'Task / Add task');
 
 		// Stop further processing of the request in case the HTTP method is not appropriate
 		if (!Http::isPost()) {
@@ -78,7 +78,7 @@ class TaskController extends AuthController {
 	 */
 	public function update($id) {
 		// Setting the title
-		$this->set('title', 'Update task');
+		$this->set('title', 'Task / Update task');
 
 		// Stop further processing of the request in case the HTTP method is not appropriate
 		if (!Http::isPost()) {

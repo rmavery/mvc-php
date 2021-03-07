@@ -11,7 +11,7 @@ class HomeController extends Controller {
 	 */
 	public function index() {
 		// Write Title
-		$this->set('title', 'Home');
+		$this->set('title', 'Home / Index');
 
 		// Collection of email from the database
 		$user = UserModel::getById(Session::get(Config::USER_COOKIE));
@@ -30,7 +30,7 @@ class HomeController extends Controller {
 	 */
 	public function login() {
 		// Putting a title
-		$this->set('title', 'Log in');
+		$this->set('title', 'Home / Log in');
 
 		// Cancel this request request if it does not comply with the HTTP method
 		if (!Http::isPost()) {

@@ -7,6 +7,10 @@
 PHP MVC boilerplate with user authentication, basic security and MySQL CRUD operations.
 Framework was developed during the final year of university. It was used for some private projects, however I highly suggest you to use Laravel or some other popular framework for your work.
 
+## Originial Source 
+- **MVC Github Portal:** [MVC](https://github.com/mmilanovic4/MVC)
+- **Another Site:** [XXX](https://github.com/rahamatj/php-mvc-crud)
+
 ## Requirements
 
 - **Web server:** Apache with mod_rewrite enabled
