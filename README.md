@@ -6,6 +6,9 @@
 
 # Overview
 
+This is forked from [mmilanovic4/mvc](https://github.com/mmilanovic4/mvc).    My goal is to make this a template that can be used as a starting point.  So far I've only converted some of the Serbian to English.  
+Now I'm working on the routing portion of it.   (It's still WIP and does not work out of the box.)
+
 PHP MVC boilerplate with user authentication, basic security and MySQL CRUD operations.
 Framework was developed during the final year of university. It was used for some private projects, however I highly suggest you to use Laravel or some other popular framework for your work.
 
