@@ -1,9 +1,9 @@
--- Database: `mvc`
-CREATE DATABASE IF NOT EXISTS `mvc`
+-- Database: `mvc-php`
+CREATE DATABASE IF NOT EXISTS `mvc-php`
 DEFAULT CHARACTER SET utf8
 COLLATE utf8_general_ci;
 
-USE `mvc`;
+USE `mvc-php`;
 
 -- Table structure for table `users`
 CREATE TABLE IF NOT EXISTS `users` (
@@ -37,3 +37,4 @@ CREATE TABLE IF NOT EXISTS `tasks` (
 		ON DELETE RESTRICT,
 	UNIQUE (`name`)
 );
+
