@@ -2,6 +2,8 @@
 	<img src="assets/img/logo.png" alt="PHP MVC Boilerplate">
 </p>
 
+* Forked from [mmilanovic4/mvc](https://github.com/mmilanovic4/mvc)
+
 # Overview
 
 PHP MVC boilerplate with user authentication, basic security and MySQL CRUD operations.
