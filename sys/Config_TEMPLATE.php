@@ -47,6 +47,13 @@ final class Config {
 	const USER_COOKIE = 'user_id';
 
 	/**
+	 * Error reporting Level (0 = Off, E_ALL is everything)
+	 * Ref: https://www.php.net/manual/en/function.error-reporting.php
+	 * @var string
+	 */
+	const ERROR_REPORTING = '0';
+
+	/**
 	 * Random or pseudo-random string of arbitrary length
 	 * @var string
 	 */
