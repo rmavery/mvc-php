@@ -2,7 +2,13 @@
 
 require_once './sys/autoload.php';
 
-error_reporting(0);
+require_once(__DIR__ . '/sys/logging/__logloader.php');
+
+use PHPConsoleLog\Service as Console;
+
+error_reporting(Config::ERROR_REPORTING);
+
+Console::log("Data Here");
 
 Session::begin();
 

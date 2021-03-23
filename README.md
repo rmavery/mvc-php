@@ -121,3 +121,7 @@ Due to the recent problems with ApiGen and PHP 7.2, I used [phpDocumentor](https
 ```
 phpdoc --directory MVC --target MVC/docs
 ```
+
+
+## Other Resources:  
+ -[PHP Class Example | Basics Of Class In PHP Tutorial](https://appdividend.com/2019/08/30/php-class-example-basics-of-class-in-php-tutorial/)

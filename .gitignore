@@ -1,3 +1,5 @@
+# Patterns: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
 # Documentation
 docs/
 
@@ -6,3 +8,6 @@ phpunit
 
 # Do not upload this file, it has sensitive infos.. 
 sys/config.php 
+
+# Files with .exclude extension any directory 
+*.exclude
